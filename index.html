@@ -12,10 +12,9 @@
 
 <body>
     <div id="container">
-        <header>
+        <header id="header">
             <h1 id="title">
-                NET
-                <span>FLIX</span>
+                NET<span>FLIX</span>
             </h1>
             <P id="description">
                 Thank you for signing up at Netflix. Tell us more about your self
@@ -59,12 +58,15 @@
                 </div>
                 <br>
                 <div class="box">
-                    <label>Gender</label><br>
-                    <input type="radio" name="male" id="gender1" value="Male">
-                    <label for="gender1">Male</label><br>
-                    <input type="radio" name="female" id="gender2" value="Female">
-                    <label for="gender2">Female</label><br>
-                    <input type="radio" name="other" id="gender3" value="Other">
+                    <label for="gender">Gender</label>
+                    <br>
+                    <input type="radio" name="gender" id="gender1" value="Male">
+                    <label for="gender1">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="gender2" value="Female">
+                    <label for="gender2">Female</label>
+                    <br>
+                    <input type="radio" name="gender" id="gender3" value="Other">
                     <label for="gender3">Other</label>
 
                 </div>
@@ -74,7 +76,9 @@
                     <textarea name="Yourcomment" id="comment" cols="30" rows="5" placeholder="any comment"></textarea>
                 </div>
                 <br>
-                <input type="submit" id="submit" alue="Gönder">
+                <div id="form-submit">
+                    <input type="submit" id="submit" alue="Gönder">
+                </div>
 
 
 
